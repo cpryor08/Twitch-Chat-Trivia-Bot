@@ -1,0 +1,28 @@
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\MainWindow.baml
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\MainWindow.g.cs
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\App.g.cs
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2_MarkupCompile.cache
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.g.resources
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.Properties.Resources.resources
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.csproj.GenerateResource.Cache
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\bin\Release\DynaBotv2.exe
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\bin\Release\DynaBotv2.pdb
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.exe
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.pdb
+C:\Users\TwelveK\AppData\Local\Temporary Projects\DynaBotv2\obj\x86\Release\DynaBotv2.csprojResolveAssemblyReference.cache
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.exe
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.pdb
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.csprojResolveAssemblyReference.cache
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\MainWindow.baml
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\MainWindow.g.cs
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\App.g.cs
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2_MarkupCompile.cache
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.g.resources
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.Properties.Resources.resources
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\obj\x86\Release\DynaBotv2.csproj.GenerateResource.Cache
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\DynaBotv2.exe
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\DynaBotv2.pdb
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\DynaBotv2.exe.config
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\Newtonsoft.Json.dll
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\Newtonsoft.Json.pdb
+C:\Users\TwelveK\Desktop\DynaBotv2\DynaBotv2\bin\Release\Newtonsoft.Json.xml

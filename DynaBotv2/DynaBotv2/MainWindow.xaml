@@ -1,0 +1,94 @@
+﻿<Window x:Class="DynaBotv2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dyna Bot v2.0" Height="478" Width="821" Background="#FF333333" ResizeMode="NoResize" WindowStyle="ToolWindow" Loaded="Window_Loaded" Closed="Window_Closed">
+    <TabControl Height="428" Name="tabControl1" Width="785" Background="#FF333333">
+        <TabItem Header="Main" Name="tabItem1" Background="Black" OverridesDefaultStyle="False">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="46*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="721*" />
+                </Grid.ColumnDefinitions>
+                <ListBox Height="347" Margin="6,6,6,0" Name="listBox1" VerticalAlignment="Top" Background="#FF595959" SelectionChanged="listBox1_SelectionChanged" Foreground="White" FontSize="14" Grid.ColumnSpan="3" Panel.ZIndex="0" IsEnabled="True" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="6,359,0,0" Name="textBox1" VerticalAlignment="Top" Width="637" Background="#FF595959" Foreground="White" Grid.ColumnSpan="3" KeyDown="textBox1_KeyDown" />
+                <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="595,359,0,0" Name="button1" VerticalAlignment="Top" Width="120" Background="#FF595959" BorderBrush="Black" Foreground="White" Click="button1_Click" Grid.Column="2" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Trivia">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="46*" />
+                    <ColumnDefinition Width="729*" />
+                </Grid.ColumnDefinitions>
+                <ListBox Background="#FF595959" BorderBrush="#FF828790" Foreground="White" Height="360" HorizontalAlignment="Left" Margin="580,30,0,0" Name="listBox3" VerticalAlignment="Top" Width="143" Grid.Column="1" />
+                <Label Content="Fastest Answers" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="447,0,0,0" Name="label3" VerticalAlignment="Top" Foreground="White" FontSize="14" />
+                <ListBox Background="#FF595959" BorderBrush="#FF828790" Foreground="White" Height="360" HorizontalAlignment="Left" Margin="431,30,0,0" Name="listBox4" VerticalAlignment="Top" Width="143" Grid.Column="1" />
+                <Label Content="Points Earned" FontSize="14" Foreground="White" Height="28" HorizontalAlignment="Right" Margin="0,0,30,0" Name="label4" VerticalAlignment="Top" Grid.Column="1" />
+                <Button Background="#FF595959" Content="Start Trivia" Foreground="White" Grid.ColumnSpan="2" Height="82" HorizontalAlignment="Left" Margin="32,78,0,0" Name="button6" VerticalAlignment="Top" Width="159" Click="button6_Click" />
+                <Button Background="#FF595959" Content="Stop Trivia" Foreground="White" Height="82" HorizontalAlignment="Right" Margin="0,78,354,0" Name="button7" VerticalAlignment="Top" Width="159" Grid.Column="1" IsEnabled="False" Click="button7_Click" />
+                <Button Background="#FF595959" Content="Add Question" Foreground="White" Grid.ColumnSpan="2" Height="82" HorizontalAlignment="Right" Margin="0,241,584,0" Name="button8" VerticalAlignment="Top" Width="159" Click="button8_Click" />
+                <Button Background="#FF595959" Content="Add Bot" Foreground="White" Height="82" HorizontalAlignment="Right" Margin="0,241,354,0" Name="button9" VerticalAlignment="Top" Width="159" Grid.Column="1" Click="button9_Click" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Raffle">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="46*" />
+                    <ColumnDefinition Width="729*" />
+                </Grid.ColumnDefinitions>
+                <ListBox Height="360" HorizontalAlignment="Left" Margin="6,30,0,0" Name="listBox2" VerticalAlignment="Top" Width="143" Grid.ColumnSpan="2" Background="#FF595959" Foreground="White" BorderBrush="#FF828790" SelectionChanged="listBox2_SelectionChanged" />
+                <Label Content="Participants" Height="28" HorizontalAlignment="Left" Margin="6,0,0,0" Name="label1" VerticalAlignment="Top" Foreground="White" FontSize="14" Grid.ColumnSpan="2" />
+                <GroupBox Grid.Column="1" Height="360" HorizontalAlignment="Left" Margin="109,30,0,0" Name="groupBox1" VerticalAlignment="Top" Width="614" BorderBrush="#FF828790" Foreground="White">
+                    <Grid>
+                        <Button Content="Start Raffle" Height="82" HorizontalAlignment="Left" Margin="103,47,0,0" Name="button2" VerticalAlignment="Top" Width="159" Background="#FF595959" Foreground="White" Click="button2_Click" />
+                        <Button Content="Stop Raffle" Height="82" HorizontalAlignment="Right" Margin="0,47,106,0" Name="button3" VerticalAlignment="Top" Width="159" Background="#FF595959" Foreground="White" Click="button3_Click" IsEnabled="False" />
+                        <Button Content="Roll Winner" Height="82" HorizontalAlignment="Left" Margin="103,185,0,0" Name="button4" VerticalAlignment="Top" Width="159" Background="#FF595959" Foreground="White" Click="button4_Click" />
+                        <Button Content="Clear Participants" Height="82" HorizontalAlignment="Left" Margin="337,185,0,0" Name="button5" VerticalAlignment="Top" Width="159" Background="#FF595959" Foreground="White" Click="button5_Click" />
+                    </Grid>
+                </GroupBox>
+                <Label Content="Controls" FontSize="14" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="109,0,0,0" Name="label2" VerticalAlignment="Top" Grid.Column="1" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Statistics">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="46*" />
+                    <ColumnDefinition Width="729*" />
+                </Grid.ColumnDefinitions>
+                <Button Content="Populate Data" Grid.Column="1" Height="59" HorizontalAlignment="Left" Margin="568,6,0,0" Name="button10" VerticalAlignment="Top" Width="155" Foreground="White" Background="#FF595959" Click="button10_Click" />
+                <ListBox Background="#FF595959" BorderBrush="#FF828790" Foreground="White" Grid.ColumnSpan="2" Height="360" HorizontalAlignment="Left" Margin="6,30,0,0" Name="listBox5" VerticalAlignment="Top" Width="143" />
+                <Label Content="Followers" FontSize="14" Foreground="White" Grid.ColumnSpan="2" Height="28" HorizontalAlignment="Left" Margin="6,0,0,0" Name="label5" VerticalAlignment="Top" />
+                <ListBox Background="#FF595959" BorderBrush="#FF828790" Foreground="White" Height="360" HorizontalAlignment="Left" Margin="109,30,0,0" Name="listBox6" VerticalAlignment="Top" Width="143" Grid.Column="1" />
+                <Label Content="Subscribers" FontSize="14" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="109,0,0,0" Name="label6" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="Viewers:" FontSize="14" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="302,37,0,0" Name="label7" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="Most Viewers:" FontSize="14" Foreground="White" Height="28" HorizontalAlignment="Left" Margin="302,71,0,0" Name="label8" VerticalAlignment="Top" Grid.Column="1" />
+            </Grid>
+        </TabItem>
+        <TabControl.Resources>
+            <Style TargetType="TabItem">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TabItem">
+                            <Grid Name="Panel">
+                                <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="10,2"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter TargetName="Panel" Property="Background" Value="#CCC" />
+                                </Trigger>
+                                <Trigger Property="IsSelected" Value="False">
+                                    <Setter TargetName="Panel" Property="Background" Value="#FF595959" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </TabControl.Resources>
+    </TabControl>
+</Window>
